@@ -1,0 +1,65 @@
+header, main, .answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+header img {
+  max-width: 100%;
+} 
+.container {
+  grid-template-columns: 1fr;
+  align-items: center;
+}
+.container h1, main div h1, .answers div {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 0px;
+  text-align: center;
+}
+.container img {
+  margin-top: 30px;
+  border-radius: 30px;
+  margin-bottom: -4px;
+}
+.enginner {
+  position: absolute;
+  margin-left: -230px;
+  margin-top: -110px;
+  rotate: -80deg;
+}
+main {
+  margin-top: 60px;
+}
+.atu {
+  background-color: #BBF9EC;
+}
+.fut {
+  background-color: #F3E0B6;
+}
+.hab {
+  background-color: #D5CCF7;
+}
+
+.answers {
+  margin-top: 30px;
+}
+.answers div {
+  text-align: initial;
+  padding-left: 30px;
+}
+footer {
+  margin-top: 60px;
+  text-align: center;
+}
+@media screen and (max-width: 965px) {
+  .enginner, .mouse {
+    display: none;
+  }
+  header, main, .answers {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+}
+
